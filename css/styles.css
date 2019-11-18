@@ -1,0 +1,76 @@
+/*
+universal selector
+*/
+*{
+    padding: 5;
+    margin: 5;
+}
+body
+{
+    background-color: rgb(92, 138, 156);
+}
+input [type='date'] {
+    border: 2px solid purple
+}
+/* now selecting using class */
+.header-item{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    font-size: 36px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 50%;
+    margin: 5px 50px;
+}
+/* now using id we select */
+
+#item1{
+    background: rgb(67, 67, 148);
+}
+#item2{
+    background: rgb(30, 14, 179);
+}
+#item3{
+    background: crimson;
+}
+span{
+    display: inline-block;
+    background: lightslategray;
+width: 30px;
+height: 30px;
+}
+section{
+    padding: 10px 30px;
+}
+img{
+    width: 500px;
+    height: 250px;
+    border: 5px solid red;
+}
+form>div{
+    margin: 5px 0;
+}
+textarea{
+    padding: 5px;
+    resize: none;
+    border: 5px solid blue;
+}
+video{
+    border: 5px solid white;
+}
+audio{
+    border: 5px;
+}
+textarea {
+    padding: 5px;
+    resize: none;
+}
+form>div>input{
+    margin: 5px 0;
+}
+legend{
+    border: 5px black;
+    text-align: center;
+    text-shadow: tomato;
+}

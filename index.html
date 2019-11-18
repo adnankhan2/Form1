@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+<head>
+    <title>this is my own page</title>
+    <link rel="stylesheet" href=".\css\styles.css"/>
+    <style>
+    </style>
+    <script>
+    </script>
+</head>
+
+
+<body>
+    <header>
+        <h1>Lets talk HTML</h1>
+        <span>Span 1</span>
+        <span>span 2</span>
+    </header>
+
+    <main>
+       <section>
+          <div class="header-item" id="item1">1</div>
+        <div class="header-item" id="item2">2</div>
+        <div class="header-item" id="item3">3</div>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</br>
+ Tempore optio iure reprehenderit ipsa earum! Veritatis, </br>
+ enim aspernatur? Rem vel fuga alias nesciunt enim modi a at </br>
+ voluptatem iusto qui. Dignissimos.</p>
+            </article>
+       </section>
+       <section>
+           <li>Web development technologies
+            </li>
+               <ul>
+                   <ol>
+                       <li> <a href="https://www.w3schools.com/html/html5_audio.asp">HTML</a></li>
+                       <li>Javascript</li>
+                       <li>CSS</li>
+                       <li>React</li>
+                   </ol>
+               </ul>
+               <ul>
+
+    <li>
+     Back-end technologies
+        <ol>
+        <li>Node.js</li>
+    <li>Python</li>
+    <li>PHp </li>
+    <li>Java</li> </ol>
+    </li>
+               </ul>
+               <ul>
+
+                    <li>
+                     database technologies
+                        <ol>
+                        <li>SQL</li>
+                    <li>nosql</li>
+                     </ol>
+                    </li>
+                               </ul>
+
+           </article>
+       </section>
+       <section>
+           <img src="https://static.bhphotovideo.com/explora/sites/default/files/styles/top_shot/public/ts-how-to-do-basic-backyard-astrophotography-part1-introduction.jpg?itok=cqI8GCGd" alt="Astrophotography" title="Milkyway"> 
+           <img src=".\assets\pic1.jpg" alt="Milkyway"> </br>
+           <video  controls src=".\assets\movie.mp4" type="movie/mp4" >video</video> </br>
+           <audio controls src=".\assets\horse.ogv" type="audio/ogv">audio</audio>  </br>
+    </section>
+    <section>
+        <details>
+            <summary>skills</summary>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li> 
+            </ul>
+        </details>
+    </section>
+
+    <section>
+        <fieldset><legend>Application Form</legend>
+        <form method="GET">
+            <div>
+                <label for="firstname"> First Name</label>
+                <input id="firstname"  type="text" name="firstname" placeholder="First Name" minlength="2" maxlength="5"/>
+            </div>
+            <div>
+                    <label for="lastname"> Last Name</label>
+                    <input id="lastname"  type="text" name="lasstname" placeholder="Last Name" />
+                </div>
+                <div>
+                <label for="email">Email Address</label>
+                 <input id="email"  type="text" name="email" placeholder="Email Address" />
+                    </div>
+                    <div>
+               <label for="age">Age</label>
+                <input id="age"  type="text" name="age" placeholder="Age" />
+                  </div>
+                  <label for="dateofbirth">Date of Birth</label>
+                  <input id="dateofbirth"  type="date" name="dateofbirth" placeholder="Date" />
+                    </div>
+                    <div>
+                    <label for="color">your fav color</label>
+                    <input id="color"  type="color" name="color" placeholder="color" />
+                      </div>
+                      <div>
+                            <label for="linkedin">linkedin profile</label>
+                            <input id="linkedin"  type="url" name="linkedin" placeholder="Linkedin Profile Link" />
+                              </div>
+                              <div>
+                                    <p>Technologies we use for web technology</p>
+                                    <input type="checkbox" id="html" name="html" checked />
+                                    <label for="html">HTML</label>
+                                    <br />
+                                    <input type="checkbox" id="css" name="css" />
+                                    <label for="css">CSS</label>
+                                    <br />
+                        
+                                    <input type="checkbox" id="js" name="js" />
+                                    <label for="js">JavaScript</label>
+                                    <br />
+                        
+                                    <input type="checkbox" id="react" name="react" />
+                                    <label for="react">React</label>
+                                    <br />
+                                    <input type="checkbox" id="redux" name="redux" />
+                                    <label for="redux">Redux</label>
+                                </div>
+                        
+                                <div>
+                                    <p>Gender:</p>
+                                    <input type="radio" id="female" name="gender" />
+                                    <label for="female">Female</label>
+                                    <br />
+                                    <input type="radio" id="male" name="gender" />
+                                    <label for="male">Male</label>
+                                    <br />
+                                    <input type="radio" id="other" name="gender" />
+                                    <label for="other">Other</label>
+                                </div>
+                                <div>
+                                    <label for="linkedin">LinkedIn</label>
+                                    <input type="url" id="linkedin" name="linkedin">
+                                </div>
+                                <div>
+                                    <label for="github">Github</label>
+                                    <input type="url" id="github" name="github">
+                                </div>
+                        
+                                <div>
+                                    <label for="country">Select Country</label>
+                                    <select id="country" name="country">
+                                        <option>--Country--</option>
+                                        <option>Finland</option>
+                                        <option>Estonia</option>
+                                        <option>Sweden</option>
+                                        <option>Denmark</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="motivation">Motivation</label> <br />
+                                    <textarea id="motivation" name="motivation" cols="80" rows="5" required
+                                        placeholder="Write something which motivates"></textarea>
+                                </div>
+                                <div>
+                                    <label>Attach your CV</label>
+                                    <input type="file" />
+                                </div>
+                        
+                                <div>
+                                    <input type="submit" value="Submit" />
+                                </div>
+                            </form>
+                        
+                        </fieldset>
+                      </section>
+                
+        </form>
+        
+        </fieldset>
+    </section>
+      
+    </main>
+</body>
+</html>
